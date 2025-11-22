@@ -1,0 +1,68 @@
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-item-style{
+    background: rgba(255, 255, 255, 0.48);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.5px);
+    -webkit-backdrop-filter: blur(3.5px);
+    border: 1px solid rgba(255, 255, 255, 0.29) !important;
+}
+.accordion {
+    --bs-accordion-border-color: transparent;
+    --bs-accordion-active-color: #2a2a2a;
+}
+.aaccordion-button {
+    color: #2a2a2a;
+}
+
+body{
+    font-family: degular, sans-serif;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='%23ffffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+--bs-dropdown-bg{
+    background: rgba(255, 255, 255, 0);
+}
+/* Make offcanvas background transparent */
+#offcanvasDarkNavbar {
+    background-color: transparent !important;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.76);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(11.2px);
+
+}
+
+
+#offcanvasDarkNavbar .offcanvas-header,
+#offcanvasDarkNavbar .offcanvas-body {
+    background-color: transparent !important;
+    box-shadow: none;
+    border: none!important;
+}
+.navMenuUl{
+    background: rgb(255 255 255 / 16%);
+}
+
+
+#offcanvasDarkNavbar .nav-link {
+    color: white !important; 
+}
+
+
+
+/* colors */
+.lightyellow{
+    background: #f2d5bb;
+}
+.orange{
+    background: #c96d53;
+}
+.xhaki{
+    background: #4b673d;
+}
